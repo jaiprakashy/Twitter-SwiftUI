@@ -15,7 +15,7 @@ struct ContentView: View {
                     .tabItem {
                         Image(systemName: "house")
                     }
-                Text("Search")
+                SearchView()
                     .tabItem {
                         Image(systemName: "magnifyingglass")
                     }
@@ -23,12 +23,13 @@ struct ContentView: View {
                     .tabItem {
                         Image(systemName: "bell")
                     }
-                Text("Message")
+                ConversationsView()
                     .tabItem {
                         Image(systemName: "envelope")
                     }
             }
-            
+            .navigationBarTitle("Home")
+            .navigationBarTitleDisplayMode(.inline)
         }
     }
 }
