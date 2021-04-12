@@ -28,7 +28,6 @@ struct NewTweetView: View {
                 }
                 .padding()
                 .navigationBarItems(leading: Button(action: {
-                    print("logging")
                     self.isPresented.toggle()
                 }, label: {
                     Text("Cancel")
