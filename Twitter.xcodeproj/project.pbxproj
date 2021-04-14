@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA2B989C2626A4D600ADF744 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2B989B2626A4D600ADF744 /* ProfileViewModel.swift */; };
 		DA3B7FA12623087300D297A5 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3B7FA02623087300D297A5 /* SearchBar.swift */; };
 		DA3B7FA526230AEC00D297A5 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3B7FA426230AEC00D297A5 /* UserCell.swift */; };
 		DA3B7FA926230ECB00D297A5 /* ConversationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3B7FA826230ECB00D297A5 /* ConversationsView.swift */; };
@@ -48,6 +49,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA2B989B2626A4D600ADF744 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		DA3B7FA02623087300D297A5 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		DA3B7FA426230AEC00D297A5 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		DA3B7FA826230ECB00D297A5 /* ConversationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsView.swift; sourceTree = "<group>"; };
@@ -234,6 +236,7 @@
 			children = (
 				DA84A2BC2624B14200775E86 /* AuthViewModel.swift */,
 				DA84A2C726255E4F00775E86 /* SearchViewModel.swift */,
+				DA2B989B2626A4D600ADF744 /* ProfileViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -331,6 +334,7 @@
 				DA84A29D262401DE00775E86 /* LoginView.swift in Sources */,
 				DA84A2A1262401E800775E86 /* RegistrationView.swift in Sources */,
 				DA84A2912623F8E200775E86 /* NewTweetView.swift in Sources */,
+				DA2B989C2626A4D600ADF744 /* ProfileViewModel.swift in Sources */,
 				DA3B7FCF26232CFB00D297A5 /* FilterButtonView.swift in Sources */,
 				DAB1E9D92622D47F00F75045 /* TweetCell.swift in Sources */,
 				DA84A2AB26240E6700775E86 /* ImagePicker.swift in Sources */,
