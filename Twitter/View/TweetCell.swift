@@ -5,13 +5,16 @@
 //  Created by Jaiprakash Yadav on 11/04/21.
 //
 
+import Kingfisher
 import SwiftUI
 
 struct TweetCell: View {
+    let tweet: Tweet
+    
     var body: some View {
         VStack(alignment: .leading) {
             HStack(alignment: .top, spacing: 12) {
-                Image("batman")
+                KFImage(URL(string: tweet.profileImageUrl))
                     .resizable()
                     .scaledToFill()
                     .clipped()
@@ -21,15 +24,15 @@ struct TweetCell: View {
                 
                 VStack(alignment: .leading) {
                     HStack {
-                        Text("Bruce Wayne")
+                        Text(tweet.fullname)
                             .font(.system(size: 14, weight: .bold))
-                        Text("@batman •")
+                        Text("@\(tweet.username)")
                             .foregroundColor(.gray)
                         Text("2w")
                             .foregroundColor(.gray)
                     }
                     
-                    Text("Its not who I am underneath, but what I do that defines meIts not who I am underneath, but what I do that defines me")
+                    Text(tweet.caption)
                 }
             }
             
@@ -66,8 +69,8 @@ struct TweetCell: View {
     }
 }
 
-struct TweetCell_Previews: PreviewProvider {
-    static var previews: some View {
-        TweetCell()
-    }
-}
+//struct TweetCell_Previews: PreviewProvider {
+//    static var previews: some View {
+//        TweetCell()
+//    }
+//}
